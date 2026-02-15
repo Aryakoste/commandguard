@@ -1,0 +1,33 @@
+{
+  "name": "commandguard",
+  "version": "1.0.0",
+  "description": "AI-powered terminal safety layer using GitHub Copilot CLI",
+  "main": "dist/index.js",
+  "bin": {
+    "commandguard": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "setup": "npm run build && node dist/index.js setup"
+  },
+  "dependencies": {
+    "better-sqlite3": "^9.2.2",
+    "boxen": "^5.1.2",
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "dayjs": "^1.11.10",
+    "inquirer": "^8.2.6",
+    "ora": "^5.4.1"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/inquirer": "^9.0.9",
+    "@types/node": "^20.10.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "license": "MIT"
+}

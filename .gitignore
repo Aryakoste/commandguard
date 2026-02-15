@@ -1,0 +1,5 @@
+node_modules/
+dist/
+*.log
+.commandguard/
+.DS_Store

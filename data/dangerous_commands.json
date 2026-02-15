@@ -1,0 +1,5 @@
+{
+  "rm -rf /": {"severity": "critical", "message": "System deletion"},
+  "chmod 777": {"severity": "high", "message": "Insecure permissions"},
+  "curl | bash": {"severity": "high", "message": "Remote execution"}
+}

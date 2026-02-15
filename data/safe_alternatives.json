@@ -1,0 +1,4 @@
+{
+  "rm -rf /": ["rm -rf ./build", "rm -rf ~/Downloads/*"],
+  "chmod 777": ["chmod 755", "chmod 644"]
+}
